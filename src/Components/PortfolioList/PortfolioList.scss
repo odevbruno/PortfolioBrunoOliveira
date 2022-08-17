@@ -1,0 +1,20 @@
+@import '../../global.scss';
+
+li {
+    font-size: 18px;
+    margin-right: 30px;
+    padding: 0.7px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    cursor: pointer; 
+
+    &.active {
+        background-color: $mainColor;
+        color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+        justify-content: center;
+        align-items: center; 
+}
+}
